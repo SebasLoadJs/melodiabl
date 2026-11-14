@@ -81,24 +81,17 @@ Más que una lista de tecnologías, este perfil reúne proyectos reales, su cód
   <p><a href="https://github.com/SebasLoadJs/NyxLink"><strong>Explore repository ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/SebasLoadJs/OBEY-YOUR-MASTER"><img src="./assets/obey-feature.svg" width="100%" alt="OBEY YOUR MASTER project artwork" /></a>
-  <h3>02 — OBEY YOUR MASTER</h3>
-  <p>Multipurpose Discord bot project with commands, events, localization, music components, dashboard and deployment infrastructure.</p>
-  <p><code>Node.js</code> <code>Discord.js</code> <code>Bot</code></p>
-  <p><a href="https://github.com/SebasLoadJs/OBEY-YOUR-MASTER"><strong>Explore repository ↗</strong></a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
   <a href="https://github.com/SebasLoadJs/OguriCap-Bot"><img src="./assets/oguri-feature.svg" width="100%" alt="OguriCap Bot project artwork" /></a>
-  <h3>03 — OguriCap Bot</h3>
+  <h3>02 — OguriCap Bot</h3>
   <p>WhatsApp automation project with plugin infrastructure, independent frontend, backend services and deployment files.</p>
   <p><code>Automation</code> <code>Node.js</code> <code>Plugins</code></p>
   <p><a href="https://github.com/SebasLoadJs/OguriCap-Bot"><strong>Explore repository ↗</strong></a></p>
 </td>
-<td width="50%" valign="top">
-  <a href="https://github.com/SebasLoadJs/KONMI-BOT-"><img src="./assets/konmi-feature.svg" width="100%" alt="KONMI Bot project artwork" /></a>
-  <h3>04 — KONMI BOT</h3>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+  <a href="https://github.com/SebasLoadJs/KONMI-BOT-"><img src="./assets/konmi-feature.svg" width="55%" alt="KONMI Bot project artwork" /></a>
+  <h3>03 — KONMI BOT</h3>
   <p>Another part of my bot-development experiments. Consult the public repository for the implementation and its current state.</p>
   <p><code>Bot</code> <code>Experimental</code></p>
   <p><a href="https://github.com/SebasLoadJs/KONMI-BOT-"><strong>Explore repository ↗</strong></a></p>
@@ -133,32 +126,6 @@ NyxLink/
 Current package metadata: `0.1.0-dev.2`; Node.js `>=22.12.0`. Documentation covers playback, track metadata, player and node management. Features remain subject to testing and development status.
 
 [Source](https://github.com/SebasLoadJs/NyxLink) · [Tests](https://github.com/SebasLoadJs/NyxLink/tree/v5.2/tests) · [Examples](https://github.com/SebasLoadJs/NyxLink/tree/v5.2/examples)
-
-</details>
-
-<details>
-<summary><strong>✳ OBEY YOUR MASTER — modular Discord systems</strong></summary>
-<br />
-
-```text
-OBEY-YOUR-MASTER/
-├── commands/        text commands
-├── slashCommands/   application commands
-├── events/          Discord events
-├── handlers/        event/command handling
-├── languages/       localization resources
-├── lavalink/        audio server materials
-├── dashboard/       website/dashboard
-├── database/        data/persistence
-├── docs/            documentation
-├── test/            testing
-├── Dockerfile       container build
-└── ROADMAP.md       development plan
-```
-
-OBEY is an evolving multipurpose application, not just a music player. The presence of a module does not mean every planned capability is production-ready.
-
-[Source](https://github.com/SebasLoadJs/OBEY-YOUR-MASTER) · [Roadmap](https://github.com/SebasLoadJs/OBEY-YOUR-MASTER/blob/master/ROADMAP.md)
 
 </details>
 

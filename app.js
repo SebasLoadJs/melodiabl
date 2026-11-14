@@ -13,16 +13,8 @@ const projectData = {
       es: 'Cliente de audio en TypeScript para bots de Discord. El repositorio contiene código fuente, pruebas, ejemplos e integraciones con backends.'
     }
   },
-  obey: {
-    name: 'OBEY YOUR MASTER', image: './assets/obey-feature.svg', category: 'APP / DISCORD BOT', version: '14.0.0 · repository version', number: '002',
-    tags: ['DISCORD.JS', 'NODE.JS', 'COMMANDS', 'DASHBOARD'], repo: 'OBEY-YOUR-MASTER',
-    description: {
-      en: 'A multipurpose Discord bot codebase with command modules, events, localization, a dashboard, deployment files and music systems.',
-      es: 'Bot multipropósito para Discord con módulos de comandos, eventos, traducciones, dashboard, archivos de despliegue y música.'
-    }
-  },
   oguri: {
-    name: 'OguriCap Bot', image: './assets/oguri-feature.svg', category: 'APP / MESSAGING AUTOMATION', version: '2.1.0 · repository version', number: '003',
+    name: 'OguriCap Bot', image: './assets/oguri-feature.svg', category: 'APP / MESSAGING AUTOMATION', version: '2.1.0 · repository version', number: '002',
     tags: ['NODE.JS', 'WHATSAPP', 'PLUGINS', 'FRONTEND'], repo: 'OguriCap-Bot',
     description: {
       en: 'A WhatsApp automation bot repository with plugins, backend services, an independent frontend and deployment configuration.',
@@ -30,7 +22,7 @@ const projectData = {
     }
   },
   konmi: {
-    name: 'KONMI BOT', image: './assets/konmi-feature.svg', category: 'PROJECT / BOT DEVELOPMENT', version: 'experimental repository', number: '004',
+    name: 'KONMI BOT', image: './assets/konmi-feature.svg', category: 'PROJECT / BOT DEVELOPMENT', version: 'experimental repository', number: '003',
     tags: ['BOT DEVELOPMENT', 'EXPERIMENTAL'], repo: 'KONMI-BOT-',
     description: {
       en: 'An additional bot-development project. Follow the source repository for its current implementation and status.',
@@ -89,7 +81,7 @@ function showProject(key, focus=false){
   });
   const stage=$('#project-stage');stage.setAttribute('aria-labelledby',`tab-${key}`);
   $('#stage-title').textContent=info.name;$('#stage-category').textContent=info.category;$('#stage-version').textContent=info.version;
-  $('#stage-number').textContent=`PROJECT ${info.number} — 004`;$('#stage-description').textContent=info.description[lang];
+  $('#stage-number').textContent=`PROJECT ${info.number} — 003`;$('#stage-description').textContent=info.description[lang];
   const image=$('#stage-image');image.src=info.image;image.alt=`${info.name} — graphic project illustration`;
   const tags=$('#stage-chips'); tags.replaceChildren();info.tags.forEach(value=>{const span=document.createElement('span');span.textContent=value;tags.appendChild(span)});
   $('#stage-repo').href=repositoryBase+info.repo;
@@ -116,7 +108,6 @@ $$('a',nav).forEach(link=>link.addEventListener('click',()=>{nav.classList.remov
 const commands=[
   {name:'Home / overview',link:'#top'}, {name:'About / Sebas',link:'#about'},
   {name:'Projects / project explorer',link:'#work'}, {name:'NyxLink · GitHub',link:repositoryBase+'NyxLink'},
-  {name:'OBEY YOUR MASTER · GitHub',link:repositoryBase+'OBEY-YOUR-MASTER'},
   {name:'OguriCap Bot · GitHub',link:repositoryBase+'OguriCap-Bot'},
   {name:'KONMI BOT · GitHub',link:repositoryBase+'KONMI-BOT-'},
   {name:'Architecture / NyxLink',link:'#lab'}, {name:'Technology / toolkit',link:'#toolkit'},
